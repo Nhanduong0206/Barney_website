@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Bé tập làm toán")
+st.title("Catty tập làm toán")
 col1,col2,col3=st.columns(3)
 with col1:
     a = st.number_input('a')
