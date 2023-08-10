@@ -17,11 +17,11 @@ if st.button("Kiểm tra"):
     elif radio=="x":
         result=a*b
     elif radio==":":
-        result=round(a/b,2)
+        result=a/b
     
     if result==c:
         st.success("Chính xác")
-        st.balloons
+        st.balloons()
     else:
         st.error(f'Sai, đáp số đúng là {result}')
 
